@@ -1,0 +1,16 @@
+services:
+  - type: web
+    name: cwsms-backend
+    runtime: node
+    rootDir: backend-project
+    buildCommand: npm install
+    startCommand: node server.js
+    envVars:
+      - key: MONGO_URI
+        sync: false        # you will paste this manually in Render dashboard
+      - key: JWT_SECRET
+        sync: false
+      - key: FRONTEND_URL
+        sync: false
+      - key: PORT
+        value: 5000
