@@ -54,7 +54,7 @@ export default function Login() {
             <p className="text-slate-400 text-sm mt-1.5 font-medium">Car Washing Sales Management System</p>
             <div className="flex items-center justify-center gap-2 mt-3">
               <span className="w-8 h-px bg-gradient-to-r from-transparent to-blue-500/50" />
-              <span className="text-blue-400/60 text-[10px] font-bold uppercase tracking-widest">Rubavu, Rwanda</span>
+              <span className="text-blue-400/60 text-[10px] font-bold uppercase tracking-widest">Bugesera, Rwanda</span>
               <span className="w-8 h-px bg-gradient-to-l from-transparent to-blue-500/50" />
             </div>
           </div>
